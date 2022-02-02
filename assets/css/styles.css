@@ -1,0 +1,40 @@
+.home-header-carousel img{
+    height: 210px;
+    max-width: 100%;
+}
+
+.home-nav-list ul li{
+    max-width: 25%;
+}
+
+.home-nav-list ul li a{
+    font-size: 0.8rem;
+}
+
+.home-main-leftbar ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+.home-main-leftbar ul li{
+    border-bottom: 1px solid #54af05;
+    font-size: 0.8rem;
+}
+
+.home-main-leftbar ul li:first-child{
+    background-color: #54af05;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+
+.home-main-leftbar ul li a{
+    text-decoration: none;
+    color: #222;
+    transition: 0.5s ease-in;
+}
+
+.home-main-leftbar ul li a:hover{
+    padding-left: 5px;
+}
+
