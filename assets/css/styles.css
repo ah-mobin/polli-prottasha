@@ -1,3 +1,12 @@
+/* Custom Color */
+.text-purple{
+    color: #5C1484
+}
+
+.bg-purple{
+    background-color: #5C1484
+}
+
 /* sticky navbar */
 #navbar {
     overflow: hidden;
@@ -188,6 +197,69 @@ footer hr:not([size]){
     width: 85%;
     margin: auto;
     margin-bottom: 15px;
+}
+
+
+/* Career Page */
+.career-positions ul li a{
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.career-positions ul li a:hover{
+    color: #037ABC;
+}
+
+.career-position .career-heading{
+    background-color: #5C1484;
+    color: #fff;
+}
+
+.career-details h1,
+.career-details h2,
+.career-details h3,
+.career-details h4,
+.career-details h5,
+.career-details h6{
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #037ABC;
+}
+
+.career-details p,
+.career-details ul li{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.career-details ul{
+    list-style-type: circle;
+    padding-left: 15px;
+}
+
+
+/* Branches & Donors Page */
+.branches h3{
+    color: #5C1484;
+    font-weight: 700;
+}
+
+.branches table,
+.branches table thead tr th,
+.branches table tbody tr td{
+    border: 2px solid #037ABC!important;
+}
+
+/* Gallery Page */
+.gallery img{
+    border: 2px solid #5C1484;
+    transition: all 0.5s ease-in;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 991px) {
