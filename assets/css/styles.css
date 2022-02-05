@@ -256,10 +256,12 @@ footer hr:not([size]){
 .gallery img{
     border: 2px solid #5C1484;
     transition: all 0.5s ease-in;
+    filter: grayscale(100%)
 }
 
 .gallery img:hover{
     transform: scale(1.1);
+    filter: grayscale(0%)
 }
 
 @media only screen and (max-width: 991px) {
