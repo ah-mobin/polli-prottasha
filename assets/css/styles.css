@@ -1,3 +1,22 @@
+/* sticky navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+ 
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 83%;
+    z-index: 9999;
+  }
+  
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
 .main-manu .nav-item:hover{
     background-color: #4d080f!important;
     transition: all 0.2s ease-in;
@@ -35,6 +54,21 @@ a{
 .home-main-leftbar ul li{
     border-bottom: 1px solid #54af05;
     font-size: 0.8rem;
+}
+
+.home-main-leftbar p{
+    font-size: 0.8rem;
+}
+
+.home-main-leftbar a{
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: all 0.2s ease-in;
+}
+
+.home-main-leftbar a:hover{
+    color: #54af05;
+    padding-left: 5px;
 }
 
 .home-main-leftbar ul li:first-child{
@@ -101,7 +135,12 @@ a{
     width: 100%;
     border: 3px solid #fff;
     border-radius: 10px;
-    padding: 5px
+    padding: 5px;
+    background-color: #336799;
+}
+
+.home-blog-section .content-box h6{
+    background-color: #037ABC;
 }
 
 .home-blog-section .content-box .col-5 p{
@@ -122,8 +161,15 @@ footer .container{
     color: #fff;
 }
 
+footer h5{
+    width: 85%;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #037ABC;
+
+}
+
 footer .container ul li{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 footer .container ul li a{
@@ -132,8 +178,9 @@ footer .container ul li a{
 }
 
 footer .container ul li a:hover{
-    color: #037ABC;
+    color: #54af05;
     padding-left: 5px;
+    font-weight: 600;
 }
 
 footer hr:not([size]){
