@@ -21,9 +21,11 @@
   }
   
 
-  .sticky + .content {
-    padding-top: 60px;
-  }
+.sticky + .content {
+padding-top: 60px;
+}
+
+
 
 
 .main-manu .nav-item:hover{
@@ -34,6 +36,10 @@
 .home-header-carousel img{
     height: 210px;
     max-width: 100%;
+}
+
+.navbar .navbar-nav .active{
+    background-color: #4d080f!important;
 }
 
 ul{
