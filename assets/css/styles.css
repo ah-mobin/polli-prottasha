@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&family=Lato&display=swap');
+
+
+/* Font Family */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+li,p,span,a{
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    line-height: 1.4rem;
+}
+
+li{
+    line-height: 1.6rem;
+}
+
 /* Custom Color */
 .text-purple{
     color: #5C1484
@@ -316,6 +337,12 @@ footer hr:not([size]){
     color: #037ABC;
 }
 
+/* Blog page */
+.blog h3{
+    background-color: #5C1484;
+    color: #fff;
+    font-size: 1.5rem;
+}
 
 @media only screen and (max-width: 991px) {
     
