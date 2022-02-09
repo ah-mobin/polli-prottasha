@@ -108,6 +108,7 @@ a{
 
 .home-main-leftbar p{
     font-size: 0.8rem;
+    text-align: justify;
 }
 
 .home-main-leftbar a{
@@ -138,8 +139,12 @@ a{
     padding-left: 5px;
 }
 
-.home-main-carousel-one{
-    background-color: purple;
+.home-main-carousel-one .carousel-indicators button{
+    background-color: #333;
+}
+
+.home-main-carousel-one p{
+    font-weight: 600;
 }
 
 .home-main-carousel-one .carousel-inner .active{
@@ -206,8 +211,9 @@ a{
 }
 
 
-footer .container{
-    background-color: #5C1484;
+footer{
+    /* background-color: #5C1484; */
+    background-color: #262727;
     color: #fff;
 }
 
@@ -344,9 +350,18 @@ footer hr:not([size]){
     font-size: 1.5rem;
 }
 
+/* speech page */
+.speech p{
+    text-align: justify;
+}
+
 @media only screen and (max-width: 991px) {
     
 .home-nav-list ul li{
         max-width: 100%;
     }
+}
+
+p{
+    font-size: 18px!important;
 }

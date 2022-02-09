@@ -16,7 +16,7 @@
 <body>
     <!-- Header Section Start -->
     <header>
-        <div class="container">
+        <div class="container-fluid">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item home-header-carousel active">
@@ -53,7 +53,7 @@
               </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light main-manu" id="navbar">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,17 +62,36 @@
                   <div class="collapse navbar-collapse home-nav-list" id="navbarSupportedContent">
                     <ul class="navbar-nav text-uppercase mx-auto mb-2 mb-lg-0 d-flex">
                       <li class="nav-item bg-danger me-1 px-3 active">
-                        <a class="nav-link text-light" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                        <a class="nav-link text-light" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Management
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item bg-danger me-1 px-3">
+                        <a class="nav-link text-light" href="careers.html"><i class="fa fa-briefcase" aria-hidden="true"></i> what we do</a>
+                      </li>
+                      <li class="nav-item bg-danger me-1 px-3">
+                        <a class="nav-link text-light" href="careers.html"><i class="fa fa-briefcase" aria-hidden="true"></i> legal status</a>
                       </li>
                       <li class="nav-item bg-danger me-1 px-3">
                         <a class="nav-link text-light" href="careers.html"><i class="fa fa-briefcase" aria-hidden="true"></i> career</a>
                       </li>
-                      <li class="nav-item bg-danger me-1 px-3">
-                        <a class="nav-link text-light" href="branches.html"><i class="fa fa-thumbtack" aria-hidden="true"></i> branches</a>
-                      </li>
-                      <li class="nav-item bg-danger me-1 px-3">
-                        <a class="nav-link text-light" href="donors.html"><i class="fa fa-assistive-listening-systems" aria-hidden="true"></i> donor</a>
-                      </li>
+                      
                       <li class="nav-item bg-danger me-1 px-3">
                         <a class="nav-link text-light" href="gallaries.html"><i class="fa fa-address-book" aria-hidden="true"></i> gallery</a>
                       </li>
@@ -89,7 +108,7 @@
 
     <!-- Start Main Area Section -->
 
-    <section class="container content">
+    <section class="container-fluid content">
         <div class="row">
             <!-- Main Section Left Sidebar -->
             <div class="col-md-2 col-12 home-main-leftbar">
@@ -114,7 +133,7 @@
             <div class="col-md-8 col-12">
 
                 <!-- Main Content Part One -->
-                <div id="carouselExampleIndicators" class="home-main-carousel-one carousel slide text-light px-3 py-4 mb-3" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" class="home-main-carousel-one carousel slide px-3 py-4 mb-3" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -151,11 +170,11 @@
   
                         <div class="item-content p-2">
                           <div class="row">
-                            <div class="col-5">
+                            <div class="col-6">
                               <img src="assets/img/home_slider2.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="col-7">
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur molestiae deleniti? Exercitationem sunt, distinctio possimus sequi veritatis suscipit. Cumque, animi! Modi fugit hic voluptatibus cumque dolorum magnam fugiat at.</p>
+                            <div class="col-6">
+                              <img src="assets/img/home_slider2.jpg" class="img-fluid" alt="">
                             </div>
                           </div>
                         </div>
@@ -167,11 +186,11 @@
 
                       <div class="item-content p-2">
                         <div class="row">
-                          <div class="col-5">
+                          <div class="col-6">
                             <img src="assets/img/home_slider2.jpg" class="img-fluid" alt="">
                           </div>
-                          <div class="col-7">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur molestiae deleniti? Exercitationem sunt, distinctio possimus sequi veritatis suscipit. Cumque, animi! Modi fugit hic voluptatibus cumque dolorum magnam fugiat at.</p>
+                          <div class="col-6">
+                            <img src="assets/img/home_slider2.jpg" class="img-fluid" alt="">
                           </div>
                         </div>
                       </div>
@@ -183,13 +202,13 @@
 
                       <div class="item-content p-2">
                         <div class="row">
-                          <div class="col-5">
-                            <img src="assets/img/home_slider2.jpg" class="img-fluid" alt="">
+                            <div class="col-6">
+                              <img src="assets/img/home_slider2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6">
+                              <img src="assets/img/home_slider2.jpg" class="img-fluid" alt="">
+                            </div>
                           </div>
-                          <div class="col-7">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur molestiae deleniti? Exercitationem sunt, distinctio possimus sequi veritatis suscipit. Cumque, animi! Modi fugit hic voluptatibus cumque dolorum magnam fugiat at.</p>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -228,35 +247,6 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-12 mb-2">
-                      <div class="content-box p-2">
-                        <div class="row">
-                          <div class="col-md-12 col-lg-7 col-7">
-                            <h6 class="text-center text-capitalize border rounded py-2">Working Area</h6>
-                            <img src="assets/img/details1.png" class="img-fluid w-100" alt="">
-                          </div>
-                          <div class="col-md-12 col-lg-5 col-5">
-                            <p class="mt-7">Padakhep has expanded its activities throughout the country. The organization implements its different programs/ projects...</p>
-                            <a href="blog.html" class="btn btn-rounded btn-sm btn-danger">Read More</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-12 mb-2">
-                      <div class="content-box p-2">
-                        <div class="row">
-                          <div class="col-md-12 col-lg-7 col-7">
-                            <h6 class="text-center text-capitalize border rounded py-2">Working Area</h6>
-                            <img src="assets/img/details1.png" class="img-fluid w-100" alt="">
-                          </div>
-                          <div class="col-md-12 col-lg-5 col-5">
-                            <p class="mt-7">Padakhep has expanded its activities throughout the country. The organization implements its different programs/ projects...</p>
-                            <a href="blog.html" class="btn btn-rounded btn-sm btn-danger">Read More</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
                   </div>
                 </div>
 
@@ -294,16 +284,30 @@
                   <ul>
                       <li class="ps-1 py-1">Speach of Chairmen</li>
                       <img src="assets/img/chairman.jpg" class="img-fluid w-100" alt="">
-                      <p>From 1971 Bangladesh is facing many challenges including social, environment and economical aspect . It's education, health, live hood women empowerment and socio-economic sector is steel vulnerable. Polliprottasha continues...</p>
+                      <p>From 1971 Bangladesh is facing many challenges including social, environment and economical aspect....</p>
                       <a href="chairman-speech.html">Read More <i class="fas fa-arrow-right"></i></a>
                   </ul>
 
                   <ul>
                     <li class="ps-1 py-1">Executive Director</li>
                     <img src="assets/img/director.jpg" class="img-fluid w-100" alt="">
-                    <p>Sheikh Faruque ahammad has been working in development field over fifteen years tenures . He gained an ample experience in diverse development paradigms; like Microfinance (MF) management, result based program management (RBM)...</p>
+                    <p>Sheikh Faruque ahammad has been working in development field over fifteen years tenures. He gained...</p>
                     <a href="executive-director.html">Read More <i class="fas fa-arrow-right"></i></a>
                 </ul>
+
+                <ul>
+                  <li class="ps-1 py-1">Speach of Chairmen</li>
+                  <img src="assets/img/chairman.jpg" class="img-fluid w-100" alt="">
+                  <p>From 1971 Bangladesh is facing many challenges including social, environment and economical aspect....</p>
+                  <a href="chairman-speech.html">Read More <i class="fas fa-arrow-right"></i></a>
+              </ul>
+
+              <ul>
+                <li class="ps-1 py-1">Executive Director</li>
+                <img src="assets/img/director.jpg" class="img-fluid w-100" alt="">
+                <p>Sheikh Faruque ahammad has been working in development field over fifteen years tenures. He gained...</p>
+                <a href="executive-director.html">Read More <i class="fas fa-arrow-right"></i></a>
+            </ul>
               </div>
 
               <div class="mb-4">
