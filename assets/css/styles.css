@@ -44,27 +44,49 @@ li{
 
 
 /* sticky navbar */
-#navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
- 
   .sticky {
     position: fixed;
     top: 0;
-    width: 83%;
+    width: 100%;
     z-index: 9999;
-  }
+    background-color: #c5e0cd!important;
+    font-weight: 600;
+}
   
-
-.sticky + .content {
-padding-top: 60px;
+.sticky .nav-item .nav-link{
+    color: #444!important;
 }
 
+.sticky + .content {
+    padding-top: 60px;
+}
 
+.navbar{
+    border-bottom: 2px solid #54af05;
+}
 
-.main-manu .nav-item:hover{
-    background-color: #4d080f!important;
+.navbar .nav-item .nav-link,
+.navbar .dropdown .dropdown-menu .dropdown-item{
+    font-weight: 600!important;
+    /* color: #000; */
+    font-size: 0.9rem;
+    background: -webkit-linear-gradient(#5C1484,#262727);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* 
+.navbar .nav-item .nav-link {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+
+.navbar .nav-item{
+    padding-right: 10px!important;
+}
+
+.navbar .nav-item:hover{
+    /* background-color: #4d080f!important; */
     transition: all 0.2s ease-in;
 }
 
@@ -74,7 +96,8 @@ padding-top: 60px;
 }
 
 .navbar .navbar-nav .active{
-    background-color: #4d080f!important;
+    border-bottom: 3px solid #54af05!important;
+    color: #54af05!important;
 }
 
 ul{
@@ -145,6 +168,7 @@ a{
 
 .home-main-carousel-one p{
     font-weight: 600;
+    font-size: 18px;
 }
 
 .home-main-carousel-one .carousel-inner .active{
@@ -220,7 +244,7 @@ footer{
 footer h5{
     width: 85%;
     padding-bottom: 5px;
-    border-bottom: 3px solid #037ABC;
+    border-bottom: 3px solid #54af05;
 
 }
 
@@ -254,7 +278,7 @@ footer hr:not([size]){
 }
 
 .career-positions ul li a:hover{
-    color: #037ABC;
+    color: #54af05;
 }
 
 .career-position .career-heading{
