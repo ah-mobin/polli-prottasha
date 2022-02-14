@@ -12,8 +12,9 @@ li,p,span,a{
 }
 
 p{
-    line-height: 1.4rem;
+    font-size: 18px!important;
 }
+
 
 li{
     line-height: 1.6rem;
@@ -418,6 +419,26 @@ footer hr:not([size]){
     }
 }
 
-p{
-    font-size: 18px!important;
+@media only screen and (max-width: 1260px) {
+    .slider-logo{
+        margin-left: -150px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .slider-logo{
+        margin-left: -140px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .slider-logo{
+        margin-left: -120px;
+    }
+}
+
+@media only screen and (max-width: 876px) {
+    .slider-logo{
+        margin-left: -100px;
+    }
 }
