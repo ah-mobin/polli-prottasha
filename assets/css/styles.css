@@ -408,7 +408,8 @@ footer hr:not([size]){
 }
 
 /* speech page */
-.speech p{
+.speech p,
+.blog p{
     text-align: justify;
 }
 
