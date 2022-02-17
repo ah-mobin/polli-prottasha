@@ -413,6 +413,12 @@ footer hr:not([size]){
     text-align: justify;
 }
 
+.wwd img{
+    margin: auto!important;
+    text-align: center;
+    height: 100px;
+}
+
 @media only screen and (max-width: 991px) {
     
 .home-nav-list ul li{
